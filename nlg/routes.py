@@ -5,4 +5,4 @@ from flask import render_template
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('inner-page.html')
+    return render_template('index-text.html')
